@@ -1,0 +1,115 @@
+.container
+{
+  height:60px;
+  display:flex;
+  flex:1;
+  justify-content:space-between;
+  column-gap:50px;
+  box-shadow:0px 0px 6px rgba(0,0,0,0.3);
+  align-items:center;
+}
+.left-side
+{
+  width:150px;
+  display:flex;
+  align-items:center;
+}
+.burger
+{
+  height:20px;
+}
+.youtubeicon
+{
+  height:20px;
+}
+.middle
+{
+  display:flex;
+  flex:1;
+  flex-direction:row;
+  max-width:500px;
+}
+.search-bar-sec
+{
+  display:flex;
+  flex:1;
+  flex-direction:row;
+  max-width:500px;
+}
+.search-bar
+{
+  display:flex;
+  flex:1;
+  min-width:10px;
+  height:40px;
+  margin-left:-1px;
+  border-color:rgb(168, 168, 168);
+  border-width:1px;
+  border-style:solid;
+}
+.search-bar::placeholder
+{
+  font-family:arial;
+  font-size:20px;
+}
+.search-sec
+{
+  display:flex;
+  flex-direction:row;
+}
+.search-but
+{
+  background-color:rgb(243, 240, 240);
+  margin-left:-1px;
+  border-color:rgb(168, 168, 168);
+  border-width:1px;
+  border-style:solid;
+}
+.search
+{
+  width:30px;
+  height:30px;
+}
+.voice-sec
+{
+  margin-left:20px;
+  display:flex;
+  flex-direction:row;
+}
+.voice-but
+{
+  border:none;
+  border-radius:20px;
+  background-color:rgb(243, 240, 240);
+}
+.voice
+{
+  width:30px;
+  height:30px;
+}
+.right-sec
+{
+  display:flex;
+  flex-direction:row;
+  column-gap:20px;
+  background-color:white;
+}
+.butt
+{
+  display:flex;
+  justify-content:center;
+  border:none;
+  background-color:white;
+}
+.imgs
+{
+  width:40px;
+  height:40px;
+  background-color:white;
+}
+.profile
+{
+  width:40px;
+  height:40px;
+  border-radius:20px;
+}

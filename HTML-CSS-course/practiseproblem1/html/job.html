@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/job.css">
+    </head>
+    <body class="outer-container">
+        <div class="container">
+            <div class="name">
+                Job Application<span class="span">(web)</span>
+            </div>
+
+            <div class="row">
+                <div class="form_container">
+                    <label for="first_name">First Name</label>
+                    <input class="input" type="text" placeholder="Enter First Name..."> 
+                </div>
+                <div class="form_container">
+                    <label for="last_name">Last Name</label>
+                    <input class="input" type="text" placeholder="Enter Last Name...">
+                </div>
+                <div class="form_container">
+                    <label for="Email">Email</label>
+                    <input class="input" type="text" placeholder="Enter Email...">
+                </div>
+                <div class="form_container">
+                    <label class="job-role"  for="job_Role">Job Role</label>
+                    <select class="job-input" id="job" name="job">
+                        <option value="" disabled>Select a job</option>
+                        <option value="FrontendDeveloper">Frontend Developer</option>
+                        <option value="backendDeveloper">Backend Developer</option>
+                        <option value="FullstackDeveloper" selected>Fullstack Developer</option>
+                        <option value="UI/UXDesign">UI/UX Design</option>
+                    </select>
+                </div>
+                <div class="text_areacontrole">
+                    <label for="Address">Address</label>
+                    <input class="input" type="text" placeholder="Enter Address">
+                </div>
+                <div class="form_container">
+                    <label for="City">City</label>
+                    <input class="input" type="text" placeholder="Enter City Name...">
+                </div>
+                <div class="form_container">
+                    <label for="Pincode">Pincode</label>
+                    <input class="input" type="text" id="Pincode" name="Pincode" pattern="[0-9]{6}" maxlength="6" placeholder="Enter 6-digit Pincode" required>
+                </div>
+                <div class="form_container">
+                    <label for="Date">Date</label>
+                    <input class="input" type="text" placeholder="--/--/----">
+                </div>
+                <div class="form_container">
+                    <label for="CV">Upload Your CV</label>
+                    <input class="input" type="file" placeholder="file">
+                </div>
+            </div>
+            <div class="button-row">
+                <button class="but">
+                    Apply Now
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

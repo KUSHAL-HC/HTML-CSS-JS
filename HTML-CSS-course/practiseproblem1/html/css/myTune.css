@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+@import url(fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body ,html
+{
+    
+}
+.navigation
+{
+    background-color:rgb(41, 13, 105);
+    color:white;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px;
+    height:70px;
+
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+.left-side
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display:flex;
+    gap:20px;
+}
+
+/* hero-section */
+
+.hero-section
+{
+    font-family: 'Roboto', sans-serif;
+
+    margin-top:70px;
+    background-image:url(../images/mytune-heropage.png);
+    height:100vh;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    gap:40px;
+    padding:10px;
+}
+.hero-section h2
+{
+    font-size:50px;
+}
+.hero-section h4
+{
+    font-size:25px;
+}
+.hero-section p
+{
+    margin-top:50px;
+    font-family:'Open Sans', sans-serif;
+    font-weight:300;
+    font-size:15px;
+}
+
+/* Music-sec */
+
+.Music-sec
+{
+    height:70vh;
+    font-family: 'Roboto', sans-serif;
+
+    background-color:rgb(41, 13, 105);
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+
+    justify-content:top;
+    align-items:center;
+
+    gap:20px;
+    padding:20px 10px;
+}
+.Music-sec h4
+{
+    margin-top:30px;
+    font-size:20px;
+}
+.Music-sec button
+{
+    width:130px;
+    padding:8px;
+    border:none;
+
+    background-color:rgb(221, 0, 0);
+    color:white;
+    transition:0.15s ease-in-out;
+}
+.Music-sec button:hover
+{
+    background-color:rgb(189, 1, 1);
+    transition:0.15s ease-in-out;
+}
+.music-tip
+{
+    font-family:'Open Sans', sans-serif;
+    font-weight:300;
+}
+
+/* between image */
+
+.iphone-ipad
+{
+    position: relative;
+    height:50vh;
+   
+}
+.image
+{
+    height:350px;
+    width:60%;
+}
+
+/* white section */
+
+.tv-collection
+{
+    font-family: 'Roboto', sans-serif;
+    height:200vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    gap:40px;
+    padding:0 10px;
+}
+.tv-collection h4
+{
+    margin-top:100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+}
+.thin-discription
+{
+    font-family:'Open Sans', sans-serif;
+    font-weight:300;
+    font-size:13px;
+}
+.tv-collection button
+{
+    width:80px;
+    height:30px;
+    border:none;
+
+    background-color:rgb(41, 13, 105);
+    color:white;
+}
+.mac
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+/* austro-sec */
+.austro-sec
+{
+    background-image:url(../images/music-astronet.png);
+    margin-top: 50px;
+    height:100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+
+    gap:30px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    color:white;
+}
+.austro-sec h4
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size:25px;
+}
+.austro-sec p
+{
+    font-family:'Open Sans', sans-serif;
+    font-weight:200;
+    font-size:15px;
+
+    text-align:center;
+}
+
+/* gift-card */
+.gift-card
+{
+    margin:100px auto;
+    display:flex;
+    gap:20px;
+    flex-direction:row;
+}
+.gift
+{
+    width:400px;
+    height:250px;
+}
+.gift-card h4
+{
+    font-family: 'Roboto', sans-serif;
+}
+.gift-card p
+{
+    font-family:'Open Sans', sans-serif;
+    font-weight:200;
+    font-size:14px;
+}
+.gift-info
+{
+    display:flex;
+    flex-direction:column;
+    row-gap:20px;
+}
+.divider
+{
+    border: 1px solid gray;
+}
+.gift-card button
+{
+    width:80px;
+    padding:8px;
+    border:none;
+
+    background-color:rgb(41, 13, 105);
+    color:white;
+}
+.gift-card button:hover
+{
+    background-color:rgb(107, 0, 107);
+}
+.contact-us
+{
+    background-color:rgb(41, 13, 105);
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    font-weight:bold;
+}
+.Contact-div
+{
+    display:flex;
+    flex-direction:column;
+    gap:7px;
+}
+.contactp
+{
+    font-family:'Open Sans', sans-serif;
+    font-size:12px;
+}
+.copyright
+{
+    height:50px;
+    background-color:rgb(22, 0, 74);
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-family:'Open Sans', sans-serif;
+    font-size:20px;
+}

@@ -1,0 +1,113 @@
+p
+{
+font-family:Arial;
+}
+li
+{
+    margin-bottom:10px;
+}
+.body
+{
+    margin:0px;
+    display:flex;
+    flex-direction:column;
+}
+.profile
+{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    background-color:gray;
+}
+.container
+{
+    display:flex;
+    flex-direction:column;
+    row-gap:40px;
+
+    column-gap:20px;
+    border:5px solid black;
+    background-color:rgb(234, 231, 237);
+}
+.ineer-container
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.profile-container
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top:100px;
+    background-color:rgb(234, 231, 237);
+}
+.profile-info
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+.name,.age
+{
+    font-weight:bold;
+    font-size:30px;
+    margin:0px;
+}
+.name
+{
+    font-size:40px;
+}
+.age
+{
+    display:flex;
+    justify-content:flex-end;
+}
+.starting
+{
+    font-weight:bold;
+}
+.title
+{
+    font-size:45px;
+}
+.content
+{
+    display:flex;
+    flex-direction:column;
+}
+.conclusion
+{
+    display:inline-flex;
+    justify-content:flex-end;
+}
+.foot
+{
+    display:block;
+    text-align:end;
+    margin:50px;
+}
+@media (min-width: 900px) {
+    .inner-container {
+      max-width: 900px;       
+      margin: 0 auto;         
+      padding: 0;              
+    }
+  }
+
+.profile img
+{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:left;
+}
+@media(max-width:600px)
+{
+    .profile-pic
+    {
+        width:150px;
+        height:150px;
+    }
+}

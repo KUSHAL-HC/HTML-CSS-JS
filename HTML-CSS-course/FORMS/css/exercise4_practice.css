@@ -1,0 +1,62 @@
+form
+{
+  padding:10px;
+  border-style:solid;
+  width:600px;
+}
+
+.header
+{
+  font-family:arial;
+  display:flex;
+  justify-content:center;
+  background-color:lightblue;
+  color:brown;
+}
+div
+{
+  row-gap:20px;
+}
+.row
+{
+  font-family:arial;
+  display:flex;
+  margin-top:10px;
+  column-gap:10px;
+  justify-content:space-between;
+}
+.checkbox_qus
+{
+  padding:5px 10px;
+  flex:1;
+  background-color:pink;
+}
+.checkbox_ans
+{ 
+  flex:2;
+  padding:5px 10px;
+  background-color:lightblue;
+}
+.question
+{
+  display:flex;
+  background-color:lightpink;
+  justify-content:center;
+  align-items:center;
+  padding:5px 10px;
+  flex:1;
+}
+.answer
+{
+  display:flex;
+  flex:2;
+  padding:5px 10px;
+  justify-content:start;
+  align-items:center;
+  background-color:lightblue;
+}
+.but
+{
+  width:100px;
+  height:30px;
+}

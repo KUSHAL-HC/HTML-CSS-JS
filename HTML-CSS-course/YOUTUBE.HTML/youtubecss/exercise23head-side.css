@@ -1,0 +1,38 @@
+.container
+{
+  height:1000px;
+  padding-top:60px;
+  padding-left:75px;
+}
+.sidebar
+{
+  background-color:green;
+  color:white;
+  width:72px;
+  position:fixed;
+  top:60px;
+  left:0;
+  bottom:0;
+}
+.header
+{
+  background-color:black;
+  color:white;
+  position:fixed;
+  top:10px;
+  left:0px;
+  right:0px;
+  height:50PX;
+}
+.colum1
+{
+  width:200px;
+  height:200px;
+  background-color:lightblue;
+}
+.colum2
+{
+  width:200px;
+  height:200px;
+  background-color:lightpink;
+}
